@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+body, html {
+  height: 100%;
+} */
+.containerTop{
+  position: relative;
+}
+.img {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.review {
+  background-color: rgb(243, 247, 248);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 550px;
+  text-align: center;
+  box-shadow:  1px 1px 5px 0px rgb(189, 183, 183);
+  margin-top: 20px;
+
+}
+#author{
+  margin-top: 15px;
+}
+#job{ 
+  color: rgb(39, 215, 215);
+}
+#info{
+  font-size: 15px;
+}
+button{
+  border: none;
+  background: transparent;
+}
+.title::after{
+  content: "";
+  position: absolute;
+  top: 22%;
+  left: 40;
+  width: 5.5rem;
+  height: .2rem;
+  background: rgb(2, 201, 215);
+}
